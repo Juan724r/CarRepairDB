@@ -46,6 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="carWorkshop.cs">
+      <DependentUpon>carWorkshop.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="carWorkshop.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>carWorkshop.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +74,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="carWorkshop.xsc">
+      <DependentUpon>carWorkshop.xsd</DependentUpon>
+    </None>
+    <None Include="carWorkshop.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>carWorkshop.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="carWorkshop.xss">
+      <DependentUpon>carWorkshop.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
