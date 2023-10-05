@@ -1,0 +1,10 @@
+C:\Users\nikita\source\repos\er\CarRepairDB\CarRepairDB\bin\Debug\CarRepairDB.exe.config
+C:\Users\nikita\source\repos\er\CarRepairDB\CarRepairDB\bin\Debug\CarRepairDB.exe
+C:\Users\nikita\source\repos\er\CarRepairDB\CarRepairDB\bin\Debug\CarRepairDB.pdb
+C:\Users\nikita\source\repos\er\CarRepairDB\CarRepairDB\obj\Debug\CarRepairDB.csproj.AssemblyReference.cache
+C:\Users\nikita\source\repos\er\CarRepairDB\CarRepairDB\obj\Debug\CarRepairDB.Form1.resources
+C:\Users\nikita\source\repos\er\CarRepairDB\CarRepairDB\obj\Debug\CarRepairDB.Properties.Resources.resources
+C:\Users\nikita\source\repos\er\CarRepairDB\CarRepairDB\obj\Debug\CarRepairDB.csproj.GenerateResource.cache
+C:\Users\nikita\source\repos\er\CarRepairDB\CarRepairDB\obj\Debug\CarRepairDB.csproj.CoreCompileInputs.cache
+C:\Users\nikita\source\repos\er\CarRepairDB\CarRepairDB\obj\Debug\CarRepairDB.exe
+C:\Users\nikita\source\repos\er\CarRepairDB\CarRepairDB\obj\Debug\CarRepairDB.pdb
