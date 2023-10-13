@@ -29,135 +29,100 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.carWorkshop = new CarRepairDB.carWorkshop();
-            this.carsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.carIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.carModelIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.carOwnerIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.carLicensePlateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.carModelsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.carModelIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.carModelNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.carWorkshop)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.carsBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carModelsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.carIDDataGridViewTextBoxColumn,
-            this.carModelIDDataGridViewTextBoxColumn,
-            this.carOwnerIDDataGridViewTextBoxColumn,
-            this.carLicensePlateDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.carsBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(22, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(538, 150);
-            this.dataGridView1.TabIndex = 0;
             // 
             // carWorkshop
             // 
             this.carWorkshop.DataSetName = "carWorkshop";
             this.carWorkshop.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // carsBindingSource
-            // 
-            this.carsBindingSource.DataMember = "Cars";
-            this.carsBindingSource.DataSource = this.carWorkshop;
-            // 
-            // carIDDataGridViewTextBoxColumn
-            // 
-            this.carIDDataGridViewTextBoxColumn.DataPropertyName = "CarID";
-            this.carIDDataGridViewTextBoxColumn.HeaderText = "CarID";
-            this.carIDDataGridViewTextBoxColumn.Name = "carIDDataGridViewTextBoxColumn";
-            // 
-            // carModelIDDataGridViewTextBoxColumn
-            // 
-            this.carModelIDDataGridViewTextBoxColumn.DataPropertyName = "CarModelID";
-            this.carModelIDDataGridViewTextBoxColumn.HeaderText = "CarModelID";
-            this.carModelIDDataGridViewTextBoxColumn.Name = "carModelIDDataGridViewTextBoxColumn";
-            // 
-            // carOwnerIDDataGridViewTextBoxColumn
-            // 
-            this.carOwnerIDDataGridViewTextBoxColumn.DataPropertyName = "CarOwnerID";
-            this.carOwnerIDDataGridViewTextBoxColumn.HeaderText = "CarOwnerID";
-            this.carOwnerIDDataGridViewTextBoxColumn.Name = "carOwnerIDDataGridViewTextBoxColumn";
-            // 
-            // carLicensePlateDataGridViewTextBoxColumn
-            // 
-            this.carLicensePlateDataGridViewTextBoxColumn.DataPropertyName = "CarLicensePlate";
-            this.carLicensePlateDataGridViewTextBoxColumn.HeaderText = "CarLicensePlate";
-            this.carLicensePlateDataGridViewTextBoxColumn.Name = "carLicensePlateDataGridViewTextBoxColumn";
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AutoGenerateColumns = false;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.carModelIDDataGridViewTextBoxColumn1,
-            this.carModelNameDataGridViewTextBoxColumn});
-            this.dataGridView2.DataSource = this.carModelsBindingSource;
-            this.dataGridView2.Location = new System.Drawing.Point(22, 178);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(538, 150);
-            this.dataGridView2.TabIndex = 1;
-            // 
             // carModelsBindingSource
             // 
             this.carModelsBindingSource.DataMember = "CarModels";
             this.carModelsBindingSource.DataSource = this.carWorkshop;
             // 
-            // carModelIDDataGridViewTextBoxColumn1
+            // button1
             // 
-            this.carModelIDDataGridViewTextBoxColumn1.DataPropertyName = "CarModelID";
-            this.carModelIDDataGridViewTextBoxColumn1.HeaderText = "CarModelID";
-            this.carModelIDDataGridViewTextBoxColumn1.Name = "carModelIDDataGridViewTextBoxColumn1";
+            this.button1.Location = new System.Drawing.Point(260, 274);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // carModelNameDataGridViewTextBoxColumn
+            // comboBox1
             // 
-            this.carModelNameDataGridViewTextBoxColumn.DataPropertyName = "CarModelName";
-            this.carModelNameDataGridViewTextBoxColumn.HeaderText = "CarModelName";
-            this.carModelNameDataGridViewTextBoxColumn.Name = "carModelNameDataGridViewTextBoxColumn";
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Виды работ",
+            "Модели машин",
+            "Автовладельцы",
+            "Автомобили",
+            "Мастера",
+            "Работы"});
+            this.comboBox1.Location = new System.Drawing.Point(12, 365);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 2;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(33, 26);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(655, 216);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.carWorkshop)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.carsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.carModelsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carModelIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carOwnerIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carLicensePlateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource carsBindingSource;
-        private carWorkshop carWorkshop;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carModelIDDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carModelNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource carModelsBindingSource;
+        private carWorkshop carWorkshop;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
